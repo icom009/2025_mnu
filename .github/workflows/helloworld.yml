@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: macOS
     
     steps:
       - uses: actions/checkout@v3
